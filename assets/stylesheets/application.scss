@@ -11,12 +11,15 @@ body {
     width: 30%;
   }
   .active-city {
+    height: 100%;
     width: 70%;
     margin-left: 20px;
     margin-bottom: 20px;
     padding: 10px 15px;
     border: 1px solid #ddd;
     border-radius: 4px;
+    position: sticky !important;
+    top: 0 !important;
     h3 {
       margin-top: 0;
     }
